@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-function Slide(props: any) {
+function Slide(props: { mySrc: { img1: string, img2: string } }) {
   return (
     <>
       <div className="bg-[#ffffff] h-auto w-[100%] grid grid-cols-1 gap-4 rounded-2xl">
